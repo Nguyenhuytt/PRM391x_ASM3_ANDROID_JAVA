@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1635" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/drawable/ic_favorite1.xml" value="0.2275" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/drawable/ic_favorite2.xml" value="0.1755" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1635" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout-land/item_animal.xml" value="0.18694885361552027" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/action_bar.xml" value="0.33" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/actionbar_home.xml" value="0.22083333333333333" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/activity_main.xml" value="0.22083333333333333" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/fragmant_detail.xml" value="0.22083333333333333" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/fragment_detail.xml" value="0.25" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/fragment_menu.xml" value="0.1621376811594203" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/item_animal.xml" value="0.22" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/item_detail_animal.xml" value="0.15" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/item_menu.xml" value="0.17" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/layout_toast.xml" value="0.22083333333333333" />
+        <entry key="..\:/PRM391x_ASM3/app/src/main/res/layout/phone_diaglog.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

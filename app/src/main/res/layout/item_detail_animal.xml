@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/bg_eagle"
+        android:scaleType="fitXY"
+        android:id="@+id/iv_animal_dtl_background"/>
+
+    <TableRow
+        android:layout_height="60dp"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/tv_animal_dtl_name"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:text="Eagle"
+            android:textColor="@color/orange_700"
+            android:textSize="30sp"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"/>
+
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_call"
+            android:drawableTint="@color/green"
+            android:minHeight="48dp"
+            android:onClick="onClick"
+            android:text="9999999"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/iv_fav"
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_favorite2"
+            app:tint="@color/orange_700"
+            android:layout_marginEnd="20dp"/>
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/tv_animal_dtl_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/txt_eagle"
+            android:fontFamily="sans-serif-light"
+            android:justificationMode="inter_word"/>
+    </ScrollView>
+</LinearLayout>
